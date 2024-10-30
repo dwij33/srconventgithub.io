@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="results.html">ACADEMICS</a></li>
+                    <li><a href="blog.html">RESULTS AND ACHIEVEMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>SR CONVENT SHELUBAZAR</h1>
+            <p>WE ARE PROVIDING FINEST EDUCATION TO THE SOCIETY<br>FOR FUTURE BRIGHTNESS AND ENHANCEMENT</p>
+            <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+    </section>
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>OUR SPECIAL FEATURES</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Exceptional Academic Excellence</h3>
+                <p>At SR Convent, we prioritize academic achievement, ensuring a strong foundation and holistic education for every student. Our commitment to excellence reflects in consistently high pass.</p>
+            </div>
+            <div class="course-col">
+                <h3> Comprehensive Extracurricular Programs</h3>
+                <p>We believe in nurturing well-rounded students. SR Convent offers a variety of extracurricular activities, including sports, arts, and science clubs, that encourage students to explore their passions beyond the classroom.</p>
+            </div>
+            <div class="course-col">
+                <h3>Dedicated Faculty and State-of-the-Art Facilities</h3>
+                <p>Our highly qualified and experienced faculty members are dedicated to student success. Additionally, our modern labs, library, and digital classrooms provide an ideal learning environment, keeping SR Convent at the forefront of education.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- campus ---------->
+    
+    <section class="campus">
+        <h1>Campus</h1>
+        <p></p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/rear.png">
+                    <div class="layer">
+                        <h3>SRC</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/front.png">
+                    <div class="layer">
+                        <h3>SRC</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/banner.png">
+                    <div class="layer">
+                        <h3>SRC</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p></p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/building.jpg">
+                    <h3>Lavish Campus building</h3>
+                    <p></p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/logo.jpg">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/ground.jpg">
+                    <h3>Ground for Sport Facilities</h3>
+                    <p></p>
+                </div>
+            </div>
+    </section>
+    
+    
+<!---------- testimonials ---------->
+    
+    <section class="testimonials">
+        <p></p>
+        <h1>What Our Student Says</h1>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/TEST.jpg">
+                    <div> 
+                        <p>I built my foundational buliding of my academic journey through SR Convent , Now I am pursuing my HONOURS in AI , Data Science and Cyber Security from SPPU Pune</p>
+                        <h3>DWIJ RAVINDRA KALE</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+    
+<!------ Call To Action ------>
+
+<section class="cta">
+    
+       <h1>VISIT OUR YOU TUBE CHANNEL</h1>
+        <a href="https://youtube.com/shorts/13-rpcJb9ns?si=2t4AKWbQGHYX12Sz" class="hero-btn">CONTACT US</a>
+    
+</section>    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About SR Convent</h4>
+        <p>SR Convent has been dedicated to nurturing young minds with quality education and strong moral values. Established with a vision to inspire and guide students toward excellence, our institution combines a legacy of academic achievements with state-of-the-art facilities. Under the guidance of our esteemed principal, Honorable Uddhav Raut, we provide a holistic learning environment, emphasizing not only academics but also the all-around development of each student. At SR Convent, we believe in empowering our students to become responsible, compassionate, and capable individuals, ready to make a positive impact on society.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>    
+<footer>
+    <div class="credits">By Dwij Kale</div>
+</footer>
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
+
+
+
+
+
+
+

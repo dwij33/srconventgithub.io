@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="results.html">ACADEMICS</a></li>
+                    <li><a href="blog.html">RESULTS AND ACHIEVEMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Academics</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="ACADEMICS">
+        <div class="row">
+        <h1>What we offer at SR Convent</h1>
+        <p>At SR Convent, we are committed to fostering excellence through a well-rounded education that prepares our students for a bright future.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Primary School</h3>
+                <p>Our primary program develops foundational skills in reading, writing, math, and science, nurturing curiosity and creativity through hands-on learning experiences that ignite a love for learning.</p>
+            </div>
+            <div class="course-col">
+                <h3>Middle School</h3>
+                <p>Students expand their knowledge base with core subjects like English, Mathematics, Science, Social Studies, and Environmental Awareness. We also introduce computer literacy and languages to broaden their skills.</p>
+            </div>
+            <div class="course-col">
+                <h3>Extracurricular Activities</h3>
+                <p>Our extracurricular offerings, including sports, music, dance, art, drama, debate, and robotics, support our belief in a holistic education approach, helping each student at SR Convent discover and develop their unique talents.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p></p>
+            <div class="row">
+                <div class="facility-col">
+                <img src="images/building.jpg">
+                    <h3>Lavish Campus building</h3>
+                    <p></p>
+                </div>
+                    <div class="facility-col">
+                    <img src="images/ground.jpg">
+                    <h3>Ground for Sport Facilities</h3>
+                    <p></p>
+                    </div>                
+            </div>
+        </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About SR Convent</h4>
+        <p>SR Convent has been dedicated to nurturing young minds with quality education and strong moral values. Established with a vision to inspire and guide students toward excellence, our institution combines a legacy of academic achievements with state-of-the-art facilities. Under the guidance of our esteemed principal, Honorable Uddhav Raut, we provide a holistic learning environment, emphasizing not only academics but also the all-around development of each student. At SR Convent, we believe in empowering our students to become responsible, compassionate, and capable individuals, ready to make a positive impact on society.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>        
+</section>    
+<footer>
+    <div class="credits">By Dwij Kale</div>
+</footer>
+
+
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

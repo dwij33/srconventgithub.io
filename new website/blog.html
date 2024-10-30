@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="results.html">ACADEMICS</a></li>
+                    <li><a href="blog.html">RESULTS AND ACHIEVEMENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Results</h1>
+    </section>
+    
+
+
+<!-- ---------- Photo Gallery Section ---------- -->
+<section class="photo-gallery">
+    <h2>100% Result of SSC Board Exam</h2>
+    <div class="gallery-row">
+        <div class="gallery-item">
+            <img src="images/result.jpg" alt="School Event 1">
+            <p>Result of 2023-24</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/result5.jpg" alt="School Event 2">
+        </div>
+        <div class="gallery-item">
+            <img src="images/result6.jpg" alt="School Event 3">
+        </div>
+        <div class="gallery-item">
+            <img src="images/result4.jpg" alt="School Event 4">
+        </div>
+    </div>
+</section>
+
+<!-- ---------- Achievements Section ---------- -->
+<section class="achievements">
+    <h2 class="achievements-heading">Our Achievements</h2>
+    <div class="achievements-row">
+        <div class="achievement-item">
+            <img src="images/model1.jpg" alt="Award 1">
+            <p>Science Model at state level</p>
+        </div>
+            <div class="achievement-item">
+                <img src="images/model2.jpg" alt="Award 1">
+                <p>Science Model at district level</p>
+            </div>
+    </div>
+</section>
+    <footer>
+        <div class="credits">By Dwij Kale</div>
+    </footer>
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
